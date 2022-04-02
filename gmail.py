@@ -11,7 +11,7 @@ def enviar_email():
     msg = email.message.Message()
     msg['Subject'] = "Assunto"
     msg['From'] = "marcelobrys20@gmail.com"
-    msg['To'] = "marcelobrys20@hotmail.com"
+    msg['To'] = "marcelobrys31@gmail.com; marcelobrys20@hotmail.com"
     password = "leonardo21"
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email)
